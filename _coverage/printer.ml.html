@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="coverage.css" />
+    <script src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>
+        <a href="index.html">
+          <span class="dirname"></span>printer.ml
+        </a>
+      </h1>
+      <h2>91.32%</h2>
+    </div>
+    <div id="navbar">
+      <span class="unvisited" style="top:20.00%"></span>
+      <span class="unvisited" style="top:26.20%"></span>
+      <span class="unvisited" style="top:27.89%"></span>
+      <span class="unvisited" style="top:28.45%"></span>
+      <span class="unvisited" style="top:28.73%"></span>
+      <span class="unvisited" style="top:29.01%"></span>
+      <span class="unvisited" style="bottom:49.86%"></span>
+      <span class="unvisited" style="bottom:48.73%"></span>
+      <span class="unvisited" style="bottom:48.45%"></span>
+      <span class="some-visited" style="bottom:33.80%"></span>
+      <span class="some-visited" style="bottom:30.42%"></span>
+      <span class="unvisited" style="bottom:27.89%"></span>
+      <span class="unvisited" style="bottom:20.56%"></span>
+      <span class="unvisited" style="bottom:17.18%"></span>
+      <span class="unvisited" style="bottom:16.62%"></span>
+      <span class="unvisited" style="bottom:16.34%"></span>
+      <span class="unvisited" style="bottom:16.06%"></span>
+      <span class="unvisited" style="bottom:11.83%"></span>
+      <span class="unvisited" style="bottom:11.27%"></span>
+    </div>
+    <div id="report">
+      <div id="lines-layer">
+        <pre>
+<a id="L1"></a><span > </span>
+<a id="L2"></a><span > </span>
+<a id="L3"></a><span > </span>
+<a id="L4"></a><span class="visited"> </span>
+<a id="L5"></a><span > </span>
+<a id="L6"></a><span class="visited"> </span>
+<a id="L7"></a><span > </span>
+<a id="L8"></a><span class="visited"> </span>
+<a id="L9"></a><span > </span>
+<a id="L10"></a><span class="visited"> </span>
+<a id="L11"></a><span > </span>
+<a id="L12"></a><span class="visited"> </span>
+<a id="L13"></a><span > </span>
+<a id="L14"></a><span class="visited"> </span>
+<a id="L15"></a><span > </span>
+<a id="L16"></a><span > </span>
+<a id="L17"></a><span class="visited"> </span>
+<a id="L18"></a><span class="visited"> </span>
+<a id="L19"></a><span class="visited"> </span>
+<a id="L20"></a><span class="visited"> </span>
+<a id="L21"></a><span > </span>
+<a id="L22"></a><span > </span>
+<a id="L23"></a><span > </span>
+<a id="L24"></a><span > </span>
+<a id="L25"></a><span class="visited"> </span>
+<a id="L26"></a><span class="visited"> </span>
+<a id="L27"></a><span > </span>
+<a id="L28"></a><span > </span>
+<a id="L29"></a><span class="visited"> </span>
+<a id="L30"></a><span class="visited"> </span>
+<a id="L31"></a><span class="visited"> </span>
+<a id="L32"></a><span class="visited"> </span>
+<a id="L33"></a><span class="visited"> </span>
+<a id="L34"></a><span class="visited"> </span>
+<a id="L35"></a><span class="visited"> </span>
+<a id="L36"></a><span > </span>
+<a id="L37"></a><span > </span>
+<a id="L38"></a><span class="visited"> </span>
+<a id="L39"></a><span class="visited"> </span>
+<a id="L40"></a><span class="visited"> </span>
+<a id="L41"></a><span class="visited"> </span>
+<a id="L42"></a><span class="visited"> </span>
+<a id="L43"></a><span class="visited"> </span>
+<a id="L44"></a><span class="visited"> </span>
+<a id="L45"></a><span class="visited"> </span>
+<a id="L46"></a><span class="visited"> </span>
+<a id="L47"></a><span class="visited"> </span>
+<a id="L48"></a><span class="visited"> </span>
+<a id="L49"></a><span class="visited"> </span>
+<a id="L50"></a><span class="visited"> </span>
+<a id="L51"></a><span > </span>
+<a id="L52"></a><span class="visited"> </span>
+<a id="L53"></a><span class="visited"> </span>
+<a id="L54"></a><span class="visited"> </span>
+<a id="L55"></a><span class="visited"> </span>
+<a id="L56"></a><span class="visited"> </span>
+<a id="L57"></a><span class="visited"> </span>
+<a id="L58"></a><span class="visited"> </span>
+<a id="L59"></a><span class="visited"> </span>
+<a id="L60"></a><span class="visited"> </span>
+<a id="L61"></a><span > </span>
+<a id="L62"></a><span class="visited"> </span>
+<a id="L63"></a><span class="visited"> </span>
+<a id="L64"></a><span class="visited"> </span>
+<a id="L65"></a><span class="visited"> </span>
+<a id="L66"></a><span class="visited"> </span>
+<a id="L67"></a><span class="visited"> </span>
+<a id="L68"></a><span class="visited"> </span>
+<a id="L69"></a><span class="visited"> </span>
+<a id="L70"></a><span class="visited"> </span>
+<a id="L71"></a><span class="unvisited"> </span>
+<a id="L72"></a><span > </span>
+<a id="L73"></a><span class="visited"> </span>
+<a id="L74"></a><span > </span>
+<a id="L75"></a><span > </span>
+<a id="L76"></a><span class="visited"> </span>
+<a id="L77"></a><span class="visited"> </span>
+<a id="L78"></a><span > </span>
+<a id="L79"></a><span > </span>
+<a id="L80"></a><span class="visited"> </span>
+<a id="L81"></a><span class="visited"> </span>
+<a id="L82"></a><span class="visited"> </span>
+<a id="L83"></a><span class="visited"> </span>
+<a id="L84"></a><span class="visited"> </span>
+<a id="L85"></a><span class="visited"> </span>
+<a id="L86"></a><span > </span>
+<a id="L87"></a><span class="visited"> </span>
+<a id="L88"></a><span > </span>
+<a id="L89"></a><span > </span>
+<a id="L90"></a><span > </span>
+<a id="L91"></a><span class="visited"> </span>
+<a id="L92"></a><span class="visited"> </span>
+<a id="L93"></a><span class="unvisited"> </span>
+<a id="L94"></a><span > </span>
+<a id="L95"></a><span class="visited"> </span>
+<a id="L96"></a><span > </span>
+<a id="L97"></a><span > </span>
+<a id="L98"></a><span > </span>
+<a id="L99"></a><span class="unvisited"> </span>
+<a id="L100"></a><span > </span>
+<a id="L101"></a><span class="unvisited"> </span>
+<a id="L102"></a><span class="unvisited"> </span>
+<a id="L103"></a><span class="unvisited"> </span>
+<a id="L104"></a><span > </span>
+<a id="L105"></a><span > </span>
+<a id="L106"></a><span > </span>
+<a id="L107"></a><span > </span>
+<a id="L108"></a><span > </span>
+<a id="L109"></a><span > </span>
+<a id="L110"></a><span > </span>
+<a id="L111"></a><span > </span>
+<a id="L112"></a><span > </span>
+<a id="L113"></a><span > </span>
+<a id="L114"></a><span > </span>
+<a id="L115"></a><span > </span>
+<a id="L116"></a><span > </span>
+<a id="L117"></a><span > </span>
+<a id="L118"></a><span > </span>
+<a id="L119"></a><span > </span>
+<a id="L120"></a><span > </span>
+<a id="L121"></a><span > </span>
+<a id="L122"></a><span > </span>
+<a id="L123"></a><span > </span>
+<a id="L124"></a><span > </span>
+<a id="L125"></a><span > </span>
+<a id="L126"></a><span > </span>
+<a id="L127"></a><span > </span>
+<a id="L128"></a><span > </span>
+<a id="L129"></a><span > </span>
+<a id="L130"></a><span > </span>
+<a id="L131"></a><span > </span>
+<a id="L132"></a><span > </span>
+<a id="L133"></a><span > </span>
+<a id="L134"></a><span > </span>
+<a id="L135"></a><span > </span>
+<a id="L136"></a><span > </span>
+<a id="L137"></a><span > </span>
+<a id="L138"></a><span > </span>
+<a id="L139"></a><span > </span>
+<a id="L140"></a><span > </span>
+<a id="L141"></a><span > </span>
+<a id="L142"></a><span > </span>
+<a id="L143"></a><span > </span>
+<a id="L144"></a><span > </span>
+<a id="L145"></a><span > </span>
+<a id="L146"></a><span > </span>
+<a id="L147"></a><span > </span>
+<a id="L148"></a><span > </span>
+<a id="L149"></a><span > </span>
+<a id="L150"></a><span > </span>
+<a id="L151"></a><span > </span>
+<a id="L152"></a><span > </span>
+<a id="L153"></a><span class="visited"> </span>
+<a id="L154"></a><span > </span>
+<a id="L155"></a><span class="visited"> </span>
+<a id="L156"></a><span > </span>
+<a id="L157"></a><span > </span>
+<a id="L158"></a><span class="visited"> </span>
+<a id="L159"></a><span class="visited"> </span>
+<a id="L160"></a><span class="visited"> </span>
+<a id="L161"></a><span class="visited"> </span>
+<a id="L162"></a><span > </span>
+<a id="L163"></a><span class="visited"> </span>
+<a id="L164"></a><span > </span>
+<a id="L165"></a><span > </span>
+<a id="L166"></a><span > </span>
+<a id="L167"></a><span > </span>
+<a id="L168"></a><span > </span>
+<a id="L169"></a><span > </span>
+<a id="L170"></a><span class="visited"> </span>
+<a id="L171"></a><span class="visited"> </span>
+<a id="L172"></a><span > </span>
+<a id="L173"></a><span > </span>
+<a id="L174"></a><span > </span>
+<a id="L175"></a><span class="visited"> </span>
+<a id="L176"></a><span class="visited"> </span>
+<a id="L177"></a><span class="visited"> </span>
+<a id="L178"></a><span class="unvisited"> </span>
+<a id="L179"></a><span > </span>
+<a id="L180"></a><span > </span>
+<a id="L181"></a><span class="visited"> </span>
+<a id="L182"></a><span class="unvisited"> </span>
+<a id="L183"></a><span class="unvisited"> </span>
+<a id="L184"></a><span class="visited"> </span>
+<a id="L185"></a><span > </span>
+<a id="L186"></a><span > </span>
+<a id="L187"></a><span > </span>
+<a id="L188"></a><span class="visited"> </span>
+<a id="L189"></a><span class="visited"> </span>
+<a id="L190"></a><span > </span>
+<a id="L191"></a><span > </span>
+<a id="L192"></a><span > </span>
+<a id="L193"></a><span class="visited"> </span>
+<a id="L194"></a><span class="visited"> </span>
+<a id="L195"></a><span > </span>
+<a id="L196"></a><span > </span>
+<a id="L197"></a><span class="visited"> </span>
+<a id="L198"></a><span class="visited"> </span>
+<a id="L199"></a><span > </span>
+<a id="L200"></a><span > </span>
+<a id="L201"></a><span > </span>
+<a id="L202"></a><span class="visited"> </span>
+<a id="L203"></a><span class="visited"> </span>
+<a id="L204"></a><span class="visited"> </span>
+<a id="L205"></a><span > </span>
+<a id="L206"></a><span > </span>
+<a id="L207"></a><span > </span>
+<a id="L208"></a><span class="visited"> </span>
+<a id="L209"></a><span class="visited"> </span>
+<a id="L210"></a><span class="visited"> </span>
+<a id="L211"></a><span class="visited"> </span>
+<a id="L212"></a><span class="visited"> </span>
+<a id="L213"></a><span class="visited"> </span>
+<a id="L214"></a><span class="visited"> </span>
+<a id="L215"></a><span > </span>
+<a id="L216"></a><span class="visited"> </span>
+<a id="L217"></a><span > </span>
+<a id="L218"></a><span > </span>
+<a id="L219"></a><span > </span>
+<a id="L220"></a><span class="visited"> </span>
+<a id="L221"></a><span class="visited"> </span>
+<a id="L222"></a><span class="visited"> </span>
+<a id="L223"></a><span > </span>
+<a id="L224"></a><span > </span>
+<a id="L225"></a><span class="visited"> </span>
+<a id="L226"></a><span class="visited"> </span>
+<a id="L227"></a><span class="visited"> </span>
+<a id="L228"></a><span > </span>
+<a id="L229"></a><span > </span>
+<a id="L230"></a><span > </span>
+<a id="L231"></a><span class="visited"> </span>
+<a id="L232"></a><span class="visited"> </span>
+<a id="L233"></a><span class="visited"> </span>
+<a id="L234"></a><span class="visited"> </span>
+<a id="L235"></a><span class="some-visited"> </span>
+<a id="L236"></a><span > </span>
+<a id="L237"></a><span class="visited"> </span>
+<a id="L238"></a><span class="visited"> </span>
+<a id="L239"></a><span class="visited"> </span>
+<a id="L240"></a><span > </span>
+<a id="L241"></a><span class="visited"> </span>
+<a id="L242"></a><span > </span>
+<a id="L243"></a><span > </span>
+<a id="L244"></a><span > </span>
+<a id="L245"></a><span class="visited"> </span>
+<a id="L246"></a><span > </span>
+<a id="L247"></a><span class="some-visited"> </span>
+<a id="L248"></a><span class="visited"> </span>
+<a id="L249"></a><span > </span>
+<a id="L250"></a><span class="visited"> </span>
+<a id="L251"></a><span > </span>
+<a id="L252"></a><span > </span>
+<a id="L253"></a><span > </span>
+<a id="L254"></a><span > </span>
+<a id="L255"></a><span > </span>
+<a id="L256"></a><span class="unvisited"> </span>
+<a id="L257"></a><span class="visited"> </span>
+<a id="L258"></a><span class="visited"> </span>
+<a id="L259"></a><span class="visited"> </span>
+<a id="L260"></a><span class="visited"> </span>
+<a id="L261"></a><span class="visited"> </span>
+<a id="L262"></a><span class="visited"> </span>
+<a id="L263"></a><span > </span>
+<a id="L264"></a><span > </span>
+<a id="L265"></a><span > </span>
+<a id="L266"></a><span > </span>
+<a id="L267"></a><span class="visited"> </span>
+<a id="L268"></a><span > </span>
+<a id="L269"></a><span class="visited"> </span>
+<a id="L270"></a><span > </span>
+<a id="L271"></a><span > </span>
+<a id="L272"></a><span class="visited"> </span>
+<a id="L273"></a><span > </span>
+<a id="L274"></a><span > </span>
+<a id="L275"></a><span class="visited"> </span>
+<a id="L276"></a><span class="visited"> </span>
+<a id="L277"></a><span class="visited"> </span>
+<a id="L278"></a><span class="visited"> </span>
+<a id="L279"></a><span class="visited"> </span>
+<a id="L280"></a><span class="visited"> </span>
+<a id="L281"></a><span class="visited"> </span>
+<a id="L282"></a><span class="unvisited"> </span>
+<a id="L283"></a><span class="visited"> </span>
+<a id="L284"></a><span > </span>
+<a id="L285"></a><span class="visited"> </span>
+<a id="L286"></a><span > </span>
+<a id="L287"></a><span > </span>
+<a id="L288"></a><span > </span>
+<a id="L289"></a><span class="visited"> </span>
+<a id="L290"></a><span class="visited"> </span>
+<a id="L291"></a><span class="visited"> </span>
+<a id="L292"></a><span > </span>
+<a id="L293"></a><span > </span>
+<a id="L294"></a><span class="unvisited"> </span>
+<a id="L295"></a><span > </span>
+<a id="L296"></a><span class="unvisited"> </span>
+<a id="L297"></a><span class="unvisited"> </span>
+<a id="L298"></a><span class="unvisited"> </span>
+<a id="L299"></a><span > </span>
+<a id="L300"></a><span > </span>
+<a id="L301"></a><span > </span>
+<a id="L302"></a><span > </span>
+<a id="L303"></a><span > </span>
+<a id="L304"></a><span > </span>
+<a id="L305"></a><span > </span>
+<a id="L306"></a><span class="visited"> </span>
+<a id="L307"></a><span class="visited"> </span>
+<a id="L308"></a><span class="visited"> </span>
+<a id="L309"></a><span class="visited"> </span>
+<a id="L310"></a><span class="visited"> </span>
+<a id="L311"></a><span class="visited"> </span>
+<a id="L312"></a><span class="visited"> </span>
+<a id="L313"></a><span class="unvisited"> </span>
+<a id="L314"></a><span class="visited"> </span>
+<a id="L315"></a><span class="unvisited"> </span>
+<a id="L316"></a><span class="visited"> </span>
+<a id="L317"></a><span class="visited"> </span>
+<a id="L318"></a><span class="visited"> </span>
+<a id="L319"></a><span > </span>
+<a id="L320"></a><span class="visited"> </span>
+<a id="L321"></a><span > </span>
+<a id="L322"></a><span > </span>
+<a id="L323"></a><span class="visited"> </span>
+<a id="L324"></a><span > </span>
+<a id="L325"></a><span > </span>
+<a id="L326"></a><span > </span>
+<a id="L327"></a><span class="visited"> </span>
+<a id="L328"></a><span class="visited"> </span>
+<a id="L329"></a><span > </span>
+<a id="L330"></a><span class="visited"> </span>
+<a id="L331"></a><span class="visited"> </span>
+<a id="L332"></a><span class="visited"> </span>
+<a id="L333"></a><span class="visited"> </span>
+<a id="L334"></a><span class="visited"> </span>
+<a id="L335"></a><span class="visited"> </span>
+<a id="L336"></a><span class="visited"> </span>
+<a id="L337"></a><span class="visited"> </span>
+<a id="L338"></a><span > </span>
+<a id="L339"></a><span class="visited"> </span>
+<a id="L340"></a><span class="visited"> </span>
+<a id="L341"></a><span class="visited"> </span>
+<a id="L342"></a><span class="visited"> </span>
+<a id="L343"></a><span class="visited"> </span>
+<a id="L344"></a><span class="visited"> </span>
+<a id="L345"></a><span class="visited"> </span>
+<a id="L346"></a><span class="visited"> </span>
+<a id="L347"></a><span > </span>
+<a id="L348"></a><span > </span>
+<a id="L349"></a><span class="visited"> </span>
+<a id="L350"></a><span > </span>
+<a id="L351"></a><span class="visited"> </span>
+<a id="L352"></a><span class="visited"> </span>
+<a id="L353"></a><span class="visited"> </span>
+<a id="L354"></a><span class="visited"> </span>
+<a id="L355"></a><span > </span>
+</pre>
+      </div>
+      <div id="text-layer">
+        <pre id="line-numbers">
+<a href="#L1">  1</a>
+<a href="#L2">  2</a>
+<a href="#L3">  3</a>
+<a href="#L4">  4</a>
+<a href="#L5">  5</a>
+<a href="#L6">  6</a>
+<a href="#L7">  7</a>
+<a href="#L8">  8</a>
+<a href="#L9">  9</a>
+<a href="#L10"> 10</a>
+<a href="#L11"> 11</a>
+<a href="#L12"> 12</a>
+<a href="#L13"> 13</a>
+<a href="#L14"> 14</a>
+<a href="#L15"> 15</a>
+<a href="#L16"> 16</a>
+<a href="#L17"> 17</a>
+<a href="#L18"> 18</a>
+<a href="#L19"> 19</a>
+<a href="#L20"> 20</a>
+<a href="#L21"> 21</a>
+<a href="#L22"> 22</a>
+<a href="#L23"> 23</a>
+<a href="#L24"> 24</a>
+<a href="#L25"> 25</a>
+<a href="#L26"> 26</a>
+<a href="#L27"> 27</a>
+<a href="#L28"> 28</a>
+<a href="#L29"> 29</a>
+<a href="#L30"> 30</a>
+<a href="#L31"> 31</a>
+<a href="#L32"> 32</a>
+<a href="#L33"> 33</a>
+<a href="#L34"> 34</a>
+<a href="#L35"> 35</a>
+<a href="#L36"> 36</a>
+<a href="#L37"> 37</a>
+<a href="#L38"> 38</a>
+<a href="#L39"> 39</a>
+<a href="#L40"> 40</a>
+<a href="#L41"> 41</a>
+<a href="#L42"> 42</a>
+<a href="#L43"> 43</a>
+<a href="#L44"> 44</a>
+<a href="#L45"> 45</a>
+<a href="#L46"> 46</a>
+<a href="#L47"> 47</a>
+<a href="#L48"> 48</a>
+<a href="#L49"> 49</a>
+<a href="#L50"> 50</a>
+<a href="#L51"> 51</a>
+<a href="#L52"> 52</a>
+<a href="#L53"> 53</a>
+<a href="#L54"> 54</a>
+<a href="#L55"> 55</a>
+<a href="#L56"> 56</a>
+<a href="#L57"> 57</a>
+<a href="#L58"> 58</a>
+<a href="#L59"> 59</a>
+<a href="#L60"> 60</a>
+<a href="#L61"> 61</a>
+<a href="#L62"> 62</a>
+<a href="#L63"> 63</a>
+<a href="#L64"> 64</a>
+<a href="#L65"> 65</a>
+<a href="#L66"> 66</a>
+<a href="#L67"> 67</a>
+<a href="#L68"> 68</a>
+<a href="#L69"> 69</a>
+<a href="#L70"> 70</a>
+<a href="#L71"> 71</a>
+<a href="#L72"> 72</a>
+<a href="#L73"> 73</a>
+<a href="#L74"> 74</a>
+<a href="#L75"> 75</a>
+<a href="#L76"> 76</a>
+<a href="#L77"> 77</a>
+<a href="#L78"> 78</a>
+<a href="#L79"> 79</a>
+<a href="#L80"> 80</a>
+<a href="#L81"> 81</a>
+<a href="#L82"> 82</a>
+<a href="#L83"> 83</a>
+<a href="#L84"> 84</a>
+<a href="#L85"> 85</a>
+<a href="#L86"> 86</a>
+<a href="#L87"> 87</a>
+<a href="#L88"> 88</a>
+<a href="#L89"> 89</a>
+<a href="#L90"> 90</a>
+<a href="#L91"> 91</a>
+<a href="#L92"> 92</a>
+<a href="#L93"> 93</a>
+<a href="#L94"> 94</a>
+<a href="#L95"> 95</a>
+<a href="#L96"> 96</a>
+<a href="#L97"> 97</a>
+<a href="#L98"> 98</a>
+<a href="#L99"> 99</a>
+<a href="#L100">100</a>
+<a href="#L101">101</a>
+<a href="#L102">102</a>
+<a href="#L103">103</a>
+<a href="#L104">104</a>
+<a href="#L105">105</a>
+<a href="#L106">106</a>
+<a href="#L107">107</a>
+<a href="#L108">108</a>
+<a href="#L109">109</a>
+<a href="#L110">110</a>
+<a href="#L111">111</a>
+<a href="#L112">112</a>
+<a href="#L113">113</a>
+<a href="#L114">114</a>
+<a href="#L115">115</a>
+<a href="#L116">116</a>
+<a href="#L117">117</a>
+<a href="#L118">118</a>
+<a href="#L119">119</a>
+<a href="#L120">120</a>
+<a href="#L121">121</a>
+<a href="#L122">122</a>
+<a href="#L123">123</a>
+<a href="#L124">124</a>
+<a href="#L125">125</a>
+<a href="#L126">126</a>
+<a href="#L127">127</a>
+<a href="#L128">128</a>
+<a href="#L129">129</a>
+<a href="#L130">130</a>
+<a href="#L131">131</a>
+<a href="#L132">132</a>
+<a href="#L133">133</a>
+<a href="#L134">134</a>
+<a href="#L135">135</a>
+<a href="#L136">136</a>
+<a href="#L137">137</a>
+<a href="#L138">138</a>
+<a href="#L139">139</a>
+<a href="#L140">140</a>
+<a href="#L141">141</a>
+<a href="#L142">142</a>
+<a href="#L143">143</a>
+<a href="#L144">144</a>
+<a href="#L145">145</a>
+<a href="#L146">146</a>
+<a href="#L147">147</a>
+<a href="#L148">148</a>
+<a href="#L149">149</a>
+<a href="#L150">150</a>
+<a href="#L151">151</a>
+<a href="#L152">152</a>
+<a href="#L153">153</a>
+<a href="#L154">154</a>
+<a href="#L155">155</a>
+<a href="#L156">156</a>
+<a href="#L157">157</a>
+<a href="#L158">158</a>
+<a href="#L159">159</a>
+<a href="#L160">160</a>
+<a href="#L161">161</a>
+<a href="#L162">162</a>
+<a href="#L163">163</a>
+<a href="#L164">164</a>
+<a href="#L165">165</a>
+<a href="#L166">166</a>
+<a href="#L167">167</a>
+<a href="#L168">168</a>
+<a href="#L169">169</a>
+<a href="#L170">170</a>
+<a href="#L171">171</a>
+<a href="#L172">172</a>
+<a href="#L173">173</a>
+<a href="#L174">174</a>
+<a href="#L175">175</a>
+<a href="#L176">176</a>
+<a href="#L177">177</a>
+<a href="#L178">178</a>
+<a href="#L179">179</a>
+<a href="#L180">180</a>
+<a href="#L181">181</a>
+<a href="#L182">182</a>
+<a href="#L183">183</a>
+<a href="#L184">184</a>
+<a href="#L185">185</a>
+<a href="#L186">186</a>
+<a href="#L187">187</a>
+<a href="#L188">188</a>
+<a href="#L189">189</a>
+<a href="#L190">190</a>
+<a href="#L191">191</a>
+<a href="#L192">192</a>
+<a href="#L193">193</a>
+<a href="#L194">194</a>
+<a href="#L195">195</a>
+<a href="#L196">196</a>
+<a href="#L197">197</a>
+<a href="#L198">198</a>
+<a href="#L199">199</a>
+<a href="#L200">200</a>
+<a href="#L201">201</a>
+<a href="#L202">202</a>
+<a href="#L203">203</a>
+<a href="#L204">204</a>
+<a href="#L205">205</a>
+<a href="#L206">206</a>
+<a href="#L207">207</a>
+<a href="#L208">208</a>
+<a href="#L209">209</a>
+<a href="#L210">210</a>
+<a href="#L211">211</a>
+<a href="#L212">212</a>
+<a href="#L213">213</a>
+<a href="#L214">214</a>
+<a href="#L215">215</a>
+<a href="#L216">216</a>
+<a href="#L217">217</a>
+<a href="#L218">218</a>
+<a href="#L219">219</a>
+<a href="#L220">220</a>
+<a href="#L221">221</a>
+<a href="#L222">222</a>
+<a href="#L223">223</a>
+<a href="#L224">224</a>
+<a href="#L225">225</a>
+<a href="#L226">226</a>
+<a href="#L227">227</a>
+<a href="#L228">228</a>
+<a href="#L229">229</a>
+<a href="#L230">230</a>
+<a href="#L231">231</a>
+<a href="#L232">232</a>
+<a href="#L233">233</a>
+<a href="#L234">234</a>
+<a href="#L235">235</a>
+<a href="#L236">236</a>
+<a href="#L237">237</a>
+<a href="#L238">238</a>
+<a href="#L239">239</a>
+<a href="#L240">240</a>
+<a href="#L241">241</a>
+<a href="#L242">242</a>
+<a href="#L243">243</a>
+<a href="#L244">244</a>
+<a href="#L245">245</a>
+<a href="#L246">246</a>
+<a href="#L247">247</a>
+<a href="#L248">248</a>
+<a href="#L249">249</a>
+<a href="#L250">250</a>
+<a href="#L251">251</a>
+<a href="#L252">252</a>
+<a href="#L253">253</a>
+<a href="#L254">254</a>
+<a href="#L255">255</a>
+<a href="#L256">256</a>
+<a href="#L257">257</a>
+<a href="#L258">258</a>
+<a href="#L259">259</a>
+<a href="#L260">260</a>
+<a href="#L261">261</a>
+<a href="#L262">262</a>
+<a href="#L263">263</a>
+<a href="#L264">264</a>
+<a href="#L265">265</a>
+<a href="#L266">266</a>
+<a href="#L267">267</a>
+<a href="#L268">268</a>
+<a href="#L269">269</a>
+<a href="#L270">270</a>
+<a href="#L271">271</a>
+<a href="#L272">272</a>
+<a href="#L273">273</a>
+<a href="#L274">274</a>
+<a href="#L275">275</a>
+<a href="#L276">276</a>
+<a href="#L277">277</a>
+<a href="#L278">278</a>
+<a href="#L279">279</a>
+<a href="#L280">280</a>
+<a href="#L281">281</a>
+<a href="#L282">282</a>
+<a href="#L283">283</a>
+<a href="#L284">284</a>
+<a href="#L285">285</a>
+<a href="#L286">286</a>
+<a href="#L287">287</a>
+<a href="#L288">288</a>
+<a href="#L289">289</a>
+<a href="#L290">290</a>
+<a href="#L291">291</a>
+<a href="#L292">292</a>
+<a href="#L293">293</a>
+<a href="#L294">294</a>
+<a href="#L295">295</a>
+<a href="#L296">296</a>
+<a href="#L297">297</a>
+<a href="#L298">298</a>
+<a href="#L299">299</a>
+<a href="#L300">300</a>
+<a href="#L301">301</a>
+<a href="#L302">302</a>
+<a href="#L303">303</a>
+<a href="#L304">304</a>
+<a href="#L305">305</a>
+<a href="#L306">306</a>
+<a href="#L307">307</a>
+<a href="#L308">308</a>
+<a href="#L309">309</a>
+<a href="#L310">310</a>
+<a href="#L311">311</a>
+<a href="#L312">312</a>
+<a href="#L313">313</a>
+<a href="#L314">314</a>
+<a href="#L315">315</a>
+<a href="#L316">316</a>
+<a href="#L317">317</a>
+<a href="#L318">318</a>
+<a href="#L319">319</a>
+<a href="#L320">320</a>
+<a href="#L321">321</a>
+<a href="#L322">322</a>
+<a href="#L323">323</a>
+<a href="#L324">324</a>
+<a href="#L325">325</a>
+<a href="#L326">326</a>
+<a href="#L327">327</a>
+<a href="#L328">328</a>
+<a href="#L329">329</a>
+<a href="#L330">330</a>
+<a href="#L331">331</a>
+<a href="#L332">332</a>
+<a href="#L333">333</a>
+<a href="#L334">334</a>
+<a href="#L335">335</a>
+<a href="#L336">336</a>
+<a href="#L337">337</a>
+<a href="#L338">338</a>
+<a href="#L339">339</a>
+<a href="#L340">340</a>
+<a href="#L341">341</a>
+<a href="#L342">342</a>
+<a href="#L343">343</a>
+<a href="#L344">344</a>
+<a href="#L345">345</a>
+<a href="#L346">346</a>
+<a href="#L347">347</a>
+<a href="#L348">348</a>
+<a href="#L349">349</a>
+<a href="#L350">350</a>
+<a href="#L351">351</a>
+<a href="#L352">352</a>
+<a href="#L353">353</a>
+<a href="#L354">354</a>
+<a href="#L355">355</a>
+</pre>
+<pre><code class="ocaml">open Cards 
+
+(** [color_txt c] pretty-prints the text with color [c]. *)
+let color_txt c = <span data-count="20">A</span>NSITerminal.print_string [c]
+
+let txt_c = color_tx<span data-count="4">t</span> ANSITerminal.cyan
+
+let txt_y = color_tx<span data-count="4">t</span> ANSITerminal.yellow
+
+let txt_m = color_tx<span data-count="4">t</span> ANSITerminal.magenta
+
+let txt_g = color_tx<span data-count="4">t</span> ANSITerminal.green
+
+let txt_r = color_tx<span data-count="4">t</span> ANSITerminal.red
+
+let print_instr s =
+  <span data-count="13">l</span>et _ = Sys.command "clear" in
+  <span data-count="13">t</span>xt_c "\nWelcome to "; 
+  <span data-count="13">t</span>xt_y "\"Camel's Cluedo\"";
+  <span data-count="13">t</span>xt_c "! This game was based off of the \
+         murder mystery board\ngame \"Cluedo Clue\" for three to six players \
+         that was devised in 1943 by\nAnthony E. Pratt from Birmingham, \
+         England. For more information, please look\nup Cluedo in Wikipedia.\
+         \n\n";
+  <span data-count="13">t</span>xt_y "General Overview: ";
+  <span data-count="13">p</span>rint_string "Someone died in an unknown room by someone.\n\
+                Your objective is to identify the suspect, the weapon, and the \
+                room\n of the murder by gathering information from other \
+                players\n\n";
+  print_endline "List of possible commands (case-insensitive):";
+  print_string "| ";
+  txt_m "\"Roll\" ";
+  print_endline "allows the player to roll a pair of die for them to move.";
+  print_string "| ";
+  txt_m "\"Go &lt;number&gt;\" ";
+  print_endline "allows the player to move to one of the suggested rooms \
+                 labeled with &lt;number&gt;.";
+<span data-count="13"> </span> print_string "| ";
+<span data-count="13"> </span> txt_m "\"Hand\" ";
+<span data-count="13"> </span> print_endline "allows the player to look at his or her cards.";
+<span data-count="13"> </span> print_string "| ";
+<span data-count="13"> </span> txt_m "\"History\" ";
+<span data-count="13"> </span> print_endline "allows the player to look at his or her record tracker.";
+<span data-count="13"> </span> print_string "| ";
+<span data-count="13"> </span> txt_m "\"Guess\" ";
+<span data-count="13"> </span> print_endline "allows the player to ask other players to show the card.";
+<span data-count="13"> </span> print_string "| ";
+<span data-count="13"> </span> txt_m "\"Answer &lt;answer&gt;\" ";
+<span data-count="13"> </span> print_endline "allows the player to guess the solution with &lt;answer&gt;.";
+<span data-count="13"> </span> print_endline "  | Whenever the player moves to a room, he or she has an \
+                 opportunity to directly answer.";
+  pri<span data-count="13">n</span>t_string "  | The &lt;answer&gt; must be in the order of ";
+  txt<span data-count="13">_</span>y "Room";
+  pri<span data-count="13">n</span>t_string ", ";
+  txt<span data-count="13">_</span>y "Suspect";
+  pri<span data-count="13">n</span>t_string ", and ";
+  txt<span data-count="13">_</span>y "Weapon";
+  pri<span data-count="13">n</span>t_endline ".";
+  pri<span data-count="13">n</span>t_endline "  | If correct, the player wins the game.";
+  pri<span data-count="13">n</span>t_endline "  | If incorrect, the player loses and is no longer going to \
+                 be able to play the game.";
+  print_st<span data-count="13">r</span>ing "| ";
+  txt_m "\<span data-count="13">"</span>Help\" ";
+  print_en<span data-count="13">d</span>line "displays this help manual.";
+  print_st<span data-count="13">r</span>ing "| ";
+  txt_m "\<span data-count="13">"</span>Quit\" ";
+  print_en<span data-count="13">d</span>line "ends the game.\n";
+  txt_g "[<span data-count="13"> </span>Developed by YoungSeok Na, Yubin Heo, Jason Park, Dongho Kim ] \n\n";
+  print_en<span data-count="13">d</span>line "Enter any key to continue...";
+  match re<span data-count="13">a</span>d_line () with
+  | exceptio<span data-count="0">n</span> End_of_file -&gt; ()
+  | _ -&gt; ()
+
+(** [print_game_sheet card] prints the game sheet to the player. *)
+let print_game_sheet cards = 
+  let _ = <span data-count="5">S</span>ys.command "clear" in
+  let line<span data-count="5"> </span>= "|____________________|__________________|\n" in
+  let space = "|                    |                  |\n" in
+  txt_c "                GAME SHEET\n";
+  print_st<span data-count="5">r</span>ing " _______________________________________\n";
+  let rec <span data-count="5">c</span>ards_sheet = function
+    | [] -&gt; pr<span data-count="5">i</span>nt_string line;
+    | h :: t -<span data-count="105">&gt;</span> print_string (line ^ space); 
+      if snd h<span data-count="105"> </span>then 
+        print_st<span data-count="2">r</span>ing ("|\t"<span data-count="2"> </span>^ fst h ^ "\<span data-count="2">t</span>     |\t\tO\t|\n")
+      else 
+        print_st<span data-count="103">r</span>ing ("|\t"<span data-count="103"> </span>^ fst h ^ "\<span data-count="103">t</span>     |\t\tX\t|\n");
+      cards_sheet t 
+  in 
+  cards_sheet cards;
+  print_en<span data-count="5">d</span>line "Enter any key to continue...";
+  match re<span data-count="5">a</span>d_line () with
+  | exceptio<span data-count="0">n</span> End_of_file -&gt; ()
+  | _ -&gt; ()
+
+(** [highlight_pos room loc] is a helper function for highlighting the current 
+    room the player is in. *)
+let highlight_pos room loc = 
+  if room <span data-count="0">&lt;</span>&gt; loc then print_st<span data-count="0">r</span>ing ("|\t" ^ room ^ "\t\t")
+  else begin
+  <span data-count="0"> </span> print_string "|\t";
+    txt_y lo<span data-count="0">c</span>;
+    print_st<span data-count="0">r</span>ing "\t\t";
+  end
+
+(** [print_rooms r] is a helper function to iterate through list of rooms. *)
+(* let print_rooms r loc = 
+   let start = " _______________________" in
+   let closure = "|_______________________|_______________________|_______________________" in
+   let space = "|                       |                       |                       " in
+   print_string (start ^ start ^ start ^ "\n");
+   print_string (space ^ "|\n" ^ space ^ "|\n");
+   let rec print_each_room c loc = function
+    | [] -&gt; ()
+    | h :: t -&gt; begin
+        if c = 2 || c = 5 then begin
+          highlight_pos h loc;
+          print_string ("|\n" ^ space ^ "|\n" ^ space ^ "|\n" ^ closure ^ "|\n" ^ space ^ "|\n" ^ space ^ "|\n" ^ space ^ "|\n");
+        end
+        else if c = 8 then begin
+          highlight_pos h loc;
+          print_string ("|\n" ^ space ^ "|\n" ^ space ^ "|\n" ^ closure ^ "|\n");
+        end
+        else highlight_pos h loc;
+        print_each_room (c + 1) loc t
+      end
+   in print_each_room 0 loc r  *)
+
+(** [standard_game_board] is the board that is being used for the game. *)
+(* let standard_game_board = 
+   ["Kitchen"; "Ballroom"; "Conservatory";
+   "Dining Room"; "Cellar"; "Library";
+   "Lounge"; "Hall"; "Study"] *)
+
+(* let print_tile_name tile = match tile with 
+   | "Floor" -&gt; print_string "F"
+   | "Wall" -&gt; txt_r "W"
+   | "Entrance" -&gt; txt_y "R"
+   | "1" -&gt; print_string "1"
+   | _ -&gt; print_string " "
+
+   let print_tile r tile = 
+   if r = 0 then print_string "__"
+   else (print_string "|"; 
+        print_tile_name tile; 
+        print_string "  | ") *)
+
+(* let print_game_board loc =
+   txt_m "                               GAME BOARD\n";
+   txt_y "   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  23  24\n";
+   print_rooms standard_game_board loc *)
+
+let unwrap_card_lst card_lst =
+  List.map (fun c -&gt; 
+ <span data-count="931"> </span>    match c wi<span data-count="396">t</span>h | Suspect<span data-count="405"> </span>s | Room<span data-count="130"> </span>s | Weapon s -&gt; s) 
+    card_lst
+
+let print_card_lst l<span data-count="1">s</span>t =
+  let cl = unwrap_card_lst ls<span data-count="1">t</span> in
+  let rec print_card_lst_aux = function
+    | [] -&gt; print_endline "\n";
+    | h :: t -&gt; begin
+        print_string (h ^ " | "<span data-count="3">)</span>;
+        print_card_lst_aux t
+      end
+  in
+  print_card_lst_aux cl
+
+(** [repeat n str] prints the string [str] for [n] iterations. *)
+let rec repea<span data-count="976">t</span> n str = 
+  i<span data-count="384">f</span> n = 0 the<span data-count="592">n</span> str
+  else repeat (n - 1) str ^ str
+
+(** [title n str] prints the TODO *)
+let titl<span data-count="68">e</span> n str = 
+  let t = repeat n "----------<span data-count="68">-</span>-----" in
+  let s = repeat n "      <span data-count="68"> </span>     " in
+  if n + 1 &lt;=<span data-count="0"> </span>1 then 
+    let t = "---------------  " in
+    let s = "       " in
+    ("\n\n" ^ str ^ <span data-count="68">s</span>, t)
+  else if n + 1 =<span data-count="0"> </span>3 then 
+    let s = repeat n "         <span data-count="0"> </span>   " in
+    ("\n\n" ^ str ^ s ^ "  ", t ^ "<span data-count="68">-</span>  ")
+  else ("\n\n" ^ str ^ s, t ^ "--")
+
+(** [space len str] *)
+let rec space<span data-count="768"> </span>len str =
+  if <span data-count="168">l</span>en = 0 the<span data-count="600">n</span> st<span data-count="600">r</span>
+  else space (len - 1) str ^ " "
+
+(** [card_name name] TODO *)
+let card_na<span data-count="84">m</span>e name = 
+  let len = String.leng<span data-count="84">t</span>h name in
+  let left = 13 - len in
+  let half = left / 2 in
+  let s1 = space <span data-count="84">h</span>alf "" in
+  let s2 = space (left - h<span data-count="84">a</span>lf) "" in
+  s1 ^ name ^ s2
+
+(** [print_cards r cards] TODO *)
+let print_cards<span data-count="60"> </span>r cards =
+  let clst = unwrap_card_ls<span data-count="60">t</span> cards in
+  let n<span data-count="60"> </span>= List.length cards - 1 in
+  let start = " _____________   " in
+  let closure = "|_____________|  " in
+  let space = "|             |  " in
+  i<span data-count="5">f</span> r = 0 t<span data-count="5">h</span>en txt<span data-count="5">_</span>g (fst (title n "MY CAR<span data-count="55">D</span>S"))
+  else i<span data-count="5">f</span> r = 1 t<span data-count="5">h</span>en txt<span data-count="5">_</span>g (snd (title n "MY CAR<span data-count="50">D</span>S"))
+  else i<span data-count="5">f</span> r = 2 then print_<span data-count="5">s</span>tring (repeat n s<span data-count="45">t</span>art)
+  else i<span data-count="5">f</span> r = 7 then begin
+    let rec print_spaces cards p<span data-count="31">r</span>int= 
+      match cards <span data-count="5">w</span>ith
+      | [] -&gt; print_string p<span data-count="26">r</span>int
+      | h :: t -&gt; 
+        let p = ("<span data-count="26">|</span>" ^ card_name h ^ "|  ") in
+        print_spaces t (print ^ p)
+    in 
+    print_spaces clst ""
+<span data-count="40"> </span> end
+  else if<span data-count="5"> </span>r = 11 then print_<span data-count="5">s</span>tring (repeat n clo<span data-count="35">s</span>ure)
+  else print_<span data-count="35">s</span>tring (repeat n space)
+
+(** [print_open_cards r cards] TODO *)
+let print_open_cards<span data-count="290"> </span>r cards =
+  let clst = unwrap_card_ls<span data-count="290">t</span> cards in
+  let n<span data-count="290"> </span>= List.length cards - 1 in
+  let start = " _____________   " in
+  let closure = "|_____________|  " in
+  let space = "|             |  " in
+  i<span data-count="29">f</span> r = 0 t<span data-count="29">h</span>en txt<span data-count="29">_</span>g (fst (title n "OPEN CAR<span data-count="261">D</span>S"))
+  else i<span data-count="29">f</span> r = 1 t<span data-count="29">h</span>en txt<span data-count="29">_</span>g (snd (title n "OPEN CAR<span data-count="232">D</span>S"))
+  else i<span data-count="29">f</span> r = 2 then print_<span data-count="29">s</span>tring (repeat n s<span data-count="203">t</span>art)
+  else if r =<span data-count="29"> </span>7 then 
+    if cl<span data-count="0">s</span>t = [] then print_string ("None Availabl<span data-count="29">e</span>")
+    else begin
+      let rec print_spaces cards pri<span data-count="87">n</span>t= 
+        match cards wi<span data-count="29">t</span>h
+        | [] -&gt; print_string pri<span data-count="58">n</span>t
+        | h :: t -&gt; begin
+            let p = <span data-count="58">(</span>"|" ^ card_name h ^ "|  ") in
+            print_spaces t (print ^ p)
+          end
+      in 
+      print_spaces clst<span data-count="174"> </span>""
+    end
+  e<span data-count="0">l</span>se if r = 11 then <span data-count="0">p</span>rint_string (repeat<span data-count="174"> </span>n closure)
+  else <span data-count="174">p</span>rint_string (repeat n space)
+
+(** [faces num] prints a face of one die with the outcome [num]. *)
+let faces num =
+  let empty = "|         |" in
+  let mid =  "|    o    |" in
+  let double = "|   o o   |" in
+  let left = "|   o     |" in
+  let right = "|     o   |" in
+  if num = 1 then [empty; <span data-count="318">m</span>id; empty]
+  el<span data-count="24">s</span>e if num = 2 then [left; em<span data-count="294">p</span>ty; right]
+  el<span data-count="45">s</span>e if num = 3 then [left; <span data-count="249">m</span>id; right]
+  el<span data-count="21">s</span>e if num = 4 then [double; emp<span data-count="228">t</span>y; double]
+  el<span data-count="72">s</span>e if num = 5 then [double; m<span data-count="156">i</span>d; double]
+  el<span data-count="24">s</span>e if num = 6 then [double; doub<span data-count="132">l</span>e; double]
+  else [empty; empty; empty]
+
+(** [print_dots dice] prints the face-up value of the dice [dice] that is 
+    rolled. *)
+let pr<span data-count="159">i</span>nt_dots dic<span data-count="477">e</span> = 
+  let f a b = (a, b) in
+<span data-count="159"> </span> Lis<span data-count="159">t</span>.map2 f (face<span data-count="159">s</span> (fs<span data-count="159">t</span> dice)) (faces (snd dice))
+
+(** [print_dice r dice line] prints the dice section of the guide TODO *)
+let print_di<span data-count="530">c</span>e r dice line =
+  let start = " _________     _________" in
+  let closure = "|_________|   |_________|" in
+  let space = "|         |   |         |" <span data-count="53">i</span>n
+  if r = 0 then txt_g (line ^ "DICE ROLL       <span data-count="477"> </span>        ")
+  <span data-count="53">e</span>lse if r = 1 then txt_g ("----------------<span data-count="424">-</span>--------")
+  <span data-count="53">e</span>lse if r = 2 then print_s<span data-count="371">t</span>ring start
+  e<span data-count="53">l</span>se if r = 3  then print_s<span data-count="318">t</span>ring space
+<span data-count="318"> </span> else if 3<span data-count="159"> </span>&lt; r &amp;&amp; r &lt; 7 then begin
+    let rec print_f<span data-count="318">a</span>ces i lst= 
+      matc<span data-count="0">h</span> lst with
+      <span data-count="318">|</span> [] -&gt; ()
+      | h :: t -&gt; begin
+       <span data-count="159"> </span>  if i = r - 4 t<span data-count="159">h</span>en print_string (<span data-count="159">(</span>fst h) ^ "   " ^ (<span data-count="159">s</span>nd h))
+          else print_faces (i + 1) t
+        end
+    in 
+   <span data-count="159"> </span>print_faces 0 (print<span data-count="159">_</span>dots dice)
+  <span data-count="53">e</span>nd
+  else if r = 7 then pri<span data-count="106">n</span>t_string closure
+  else ()
+
+(** [spaces suspect] TODO *<span data-count="0">)</span>
+let spaces suspect =
+  let rec space<span data-count="0">s</span>_acc suspect acc = 
+    <span data-count="0">m</span>atch suspect with
+    | <span data-count="0">[</span>] -&gt; List.rev acc
+    | h :: t -&gt; begin
+        spaces_acc t ([""; h] @ acc)
+      end 
+  in 
+  spaces_acc suspect []
+
+(** [print_suspect r suspect] TODO *)
+let pri<span data-count="530">n</span>t_suspect r suspect =
+  let len = <span data-count="530">L</span>ist.length su<span data-count="53">s</span>pect in
+  if r = 0 then txt_g "SUSPECTS  <span data-count="477"> </span>             <span data-count="53"> </span> "
+  else if r = 1 then txt_g "--------<span data-count="424">-</span>-------------<span data-count="53">-</span>-"
+  else if r = 2 then<span data-count="371"> </span>print_string " "
+  <span data-count="159">e</span>lse if r &lt; len + 3 then begin
+    let rec print_s<span data-count="318">p</span>aces i suspect = 
+      ma<span data-count="0">t</span>ch suspect with
+<span data-count="318"> </span>     | [] -&gt; ()
+      | h :: t -&gt;<span data-count="0"> </span>
+        if h = "" then print<span data-count="318">_</span>string " "
+      <span data-count="159"> </span> else if i = r - 3 then begin
+          prin<span data-count="159">t</span>_string "* ";
+          txt_g h;
+<span data-count="159"> </span>       end
+        else print_spaces (i + 1) t
+    in 
+    print_space<span data-count="212">s</span> 0 suspect
+  end
+  else ()
+
+let rec print_all r<span data-count="583"> </span>cards dice suspect<span data-count="264"> </span>= 
+  if cards = [] then <span data-count="240">b</span>egin
+    if r &lt; 10 then begin
+      print_d<span data-count="240">i</span>ce r dice "\n\n";
+      print<span data-count="240">_</span>string "       ";
+      print_<span data-count="240">s</span>uspect r suspect;
+      <span data-count="240">p</span>rint_string "\n";
+      print_all (r + 1) cards dice <span data-count="24">s</span>uspect
+    end
+    else if r = 10 then print_<span data-count="319">s</span>tring "\n"
+  e<span data-count="290">n</span>d
+  else if r &lt; 10 then begin
+    print<span data-count="290">_</span>open_cards r cards;
+    pri<span data-count="290">n</span>t_string "       ";
+    p<span data-count="290">r</span>int_dice r dice "";
+    pri<span data-count="290">n</span>t_string "       ";
+    prin<span data-count="290">t</span>_suspect r suspect;
+  <span data-count="290"> </span> print_string "\n";
+    print_all (r + 1) cards d<span data-count="29">i</span>ce suspect
+  e<span data-count="29">n</span>d
+  else if r = 10 then print_string "\n"
+
+let rec <span data-count="65">p</span>rint_hands r c<span data-count="60">a</span>rds = 
+  if r &lt; 12 then begin
+    <span data-count="60">p</span>rint_cards r cards;
+  <span data-count="60"> </span> print_string "\n";
+    print_hands (r<span data-count="5"> </span>+ 1) cards
+  e<span data-count="5">n</span>d
+  else if r = 12 then print_string "\n"
+</code></pre>
+      </div>
+    </div>
+    <script src="coverage.js"></script>
+  </body>
+</html>

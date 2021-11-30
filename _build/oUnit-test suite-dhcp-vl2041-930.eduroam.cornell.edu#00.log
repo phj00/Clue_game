@@ -1,0 +1,342 @@
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Runner: sequential
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Chooser: simple
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration suite_name = "test suite"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration cache_filename = "/Users/jasonpark/Documents/Garage Project/Clue_game/_build/oUnit-$(suite_name).cache"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration run_gc_full_major = "true"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration display = "true"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration results_style_1_X = "false"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration testdata_dir = "none"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration health_check_interval = "1."
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration verbose = "false"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration chooser = "simple"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration output_html_dir = "none"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration processes_kill_period = "5."
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration runner = "sequential"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration shards = "2"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration processes_grace_period = "5."
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration log_encoding = "utf-8"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration output_junit_file = "none"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration ci = "false"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Configuration output_file = "/Users/jasonpark/Documents/Garage Project/Clue_game/_build/oUnit-$(suite_name)-$(shard_id).log"
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:0:roll two dice with 4 sides.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:0:roll two dice with 4 sides is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:0:roll two dice with 4 sides.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:1:roll two dice with 6 sides.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:1:roll two dice with 6 sides is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:1:roll two dice with 6 sides.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:2:roll two dice with 12 sides.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:2:roll two dice with 12 sides is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:2:roll two dice with 12 sides.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:3:find sum of two 4-sided dice.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:3:find sum of two 4-sided dice is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:3:find sum of two 4-sided dice.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:4:find sum of two 6-sided dice.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:4:find sum of two 6-sided dice is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:4:find sum of two 6-sided dice.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:5:find sum of two 12-sided dice.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:5:find sum of two 12-sided dice is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:5:find sum of two 12-sided dice.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:6:Randomly shuffle integer list.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:6:Randomly shuffle integer list is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:6:Randomly shuffle integer list.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:7:Make a list of distributable cards for 2 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:7:Make a list of distributable cards for 2 player game is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:7:Make a list of distributable cards for 2 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:8:Make a list of distributable cards for 3 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:8:Make a list of distributable cards for 3 player game is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:8:Make a list of distributable cards for 3 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:9:Make a list of distributable cards for 4 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:9:Make a list of distributable cards for 4 player game is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:9:Make a list of distributable cards for 4 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:10:Make a list of distributable cards for 5 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:10:Make a list of distributable cards for 5 player game is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:10:Make a list of distributable cards for 5 player game.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:11:Cards that are going to be left over and be shown to 2 players.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:11:Cards that are going to be left over and be shown to 2 players is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:11:Cards that are going to be left over and be shown to 2 players.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:12:Cards that are going to be left over and be shown to 3 players.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:12:Cards that are going to be left over and be shown to 3 players is successful.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:12:Cards that are going to be left over and be shown to 3 players.
+2021-11-30T03:16:03+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:13:Cards that are going to be left over and be shown to 4 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:13:Cards that are going to be left over and be shown to 4 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:13:Cards that are going to be left over and be shown to 4 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:14:Cards that are going to be left over and be shown to 5 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:14:Cards that are going to be left over and be shown to 5 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:14:Cards that are going to be left over and be shown to 5 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:15:Distribute cards evenly among 2 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:15:Distribute cards evenly among 2 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:15:Distribute cards evenly among 2 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:16:Distribute cards evenly among 3 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:16:Distribute cards evenly among 3 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:16:Distribute cards evenly among 3 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:17:Distribute cards evenly among 4 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:17:Distribute cards evenly among 4 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:17:Distribute cards evenly among 4 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:18:Distribute cards evenly among 5 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:18:Distribute cards evenly among 5 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:18:Distribute cards evenly among 5 players.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:19:only tiles.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:19:only tiles is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:19:only tiles.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:20:in room check for exit.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:20:in room check for exit is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:20:in room check for exit.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:21:room next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:21:room next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:21:room next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:22:tile next to exit.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:22:tile next to exit is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:22:tile next to exit.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:23:tile next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:23:tile next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:23:tile next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:24:end of map.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:24:end of map is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:24:end of map.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:25:start tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:25:start tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:25:start tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:26:empty map.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:26:empty map is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:26:empty map.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:27:first tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:27:first tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:27:first tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:28:last tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:28:last tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:28:last tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:29:bottom row.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:29:bottom row is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:29:bottom row.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:30:last element of row.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:30:last element of row is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:30:last element of row.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:31:start tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:31:start tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:31:start tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:32:floor next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:32:floor next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:32:floor next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:33:room next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:33:room next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:33:room next to wall.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:34:exit tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:34:exit tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:34:exit tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:35:normal floor tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:35:normal floor tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:35:normal floor tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:36:corner tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:36:corner tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:36:corner tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:37:next to start tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:37:next to start tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:37:next to start tile.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:38:Roll dice.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:38:Roll dice is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:38:Roll dice.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:39:Go to one of the available options.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:39:Go to one of the available options is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:39:Go to one of the available options.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:40:Hand - check the player's hands.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:40:Hand - check the player's hands is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:40:Hand - check the player's hands.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:41:History - check the player's trackers.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:41:History - check the player's trackers is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:41:History - check the player's trackers.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:42:Guess - ask other player to show these cards.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:42:Guess - ask other player to show these cards is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:42:Guess - ask other player to show these cards.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:43:Answer Lead Pipe.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:43:Answer Lead Pipe is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:43:Answer Lead Pipe.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:44:Help needed.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:44:Help needed is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:44:Help needed.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:45:Quit game.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:45:Quit game is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:45:Quit game.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:46:Raise Empty error for empty string.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:46:Raise Empty error for empty string is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:46:Raise Empty error for empty string.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:47:Raise Malformed error for roll.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:47:Raise Malformed error for roll is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:47:Raise Malformed error for roll.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:48:Raise Malformed error for go.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:48:Raise Malformed error for go is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:48:Raise Malformed error for go.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:49:Raise Malformed error for go - non-option.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:49:Raise Malformed error for go - non-option is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:49:Raise Malformed error for go - non-option.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:50:Raise Malformed error for hand.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:50:Raise Malformed error for hand is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:50:Raise Malformed error for hand.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:51:Raise Malformed error for history.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:51:Raise Malformed error for history is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:51:Raise Malformed error for history.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:52:Raise Malformed error for answer.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:52:Raise Malformed error for answer is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:52:Raise Malformed error for answer.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:53:Raise Malformed error for help.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:53:Raise Malformed error for help is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:53:Raise Malformed error for help.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:54:Raise Malformed error for quit.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:54:Raise Malformed error for quit is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:54:Raise Malformed error for quit.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:55:Testing whether the initial state is created successfully.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:55:Testing whether the initial state is created successfully is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:55:Testing whether the initial state is created successfully.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:56:Update the location to one right.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:56:Update the location to one right is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:56:Update the location to one right.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:57:Update the location to another room.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:57:Update the location to another room is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:57:Update the location to another room.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:58:update one card on tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:58:update one card on tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:58:update one card on tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:59:update a new card on an updated tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:59:update a new card on an updated tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:59:update a new card on an updated tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:60:update a repeated card on an updated tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:60:update a repeated card on an updated tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:60:update a repeated card on an updated tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:61:update tracker given multiple cards to update.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:61:update tracker given multiple cards to update is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:61:update tracker given multiple cards to update.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:62:no change to marks.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:62:no change to marks is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:62:no change to marks.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:63:update one card to state.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:63:update one card to state is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:63:update one card to state.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:64:Update the cards that the player has - no cards.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:64:Update the cards that the player has - no cards is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:64:Update the cards that the player has - no cards.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:65:Update the cards that the player has - one card.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:65:Update the cards that the player has - one card is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:65:Update the cards that the player has - one card.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:66:Only Scarlett updated on tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:66:Only Scarlett updated on tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:66:Only Scarlett updated on tracker.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:67:Move one down and with Green updated true.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:67:Move one down and with Green updated true is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:67:Move one down and with Green updated true.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:68:Move one down, Green updated true with .
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:68:Move one down, Green updated true with  is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:68:Move one down, Green updated true with .
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:69:Capitalize the string list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:69:Capitalize the string list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:69:Capitalize the string list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:70:Intersection of two empty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:70:Intersection of two empty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:70:Intersection of two empty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:71:Intersection of empty and nonempty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:71:Intersection of empty and nonempty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:71:Intersection of empty and nonempty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:72:Intersection of nonempty and empty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:72:Intersection of nonempty and empty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:72:Intersection of nonempty and empty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:73:Intersection of two nonempty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:73:Intersection of two nonempty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:73:Intersection of two nonempty list.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:74:Empty queue is empty.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:74:Empty queue is empty is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:74:Empty queue is empty.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:75:Enqueue to an empty queue.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:75:Enqueue to an empty queue is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:75:Enqueue to an empty queue.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:76:Enqueue to a non-empty queue.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:76:Enqueue to a non-empty queue is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:76:Enqueue to a non-empty queue.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Start test test suite:77:Enqueue to a full queue.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:77:Enqueue to a full queue is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: End test test suite:77:Enqueue to a full queue.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: ==============
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Summary:
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:77:Enqueue to a full queue is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:76:Enqueue to a non-empty queue is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:75:Enqueue to an empty queue is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:74:Empty queue is empty is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:73:Intersection of two nonempty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:72:Intersection of nonempty and empty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:71:Intersection of empty and nonempty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:70:Intersection of two empty list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:69:Capitalize the string list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:68:Move one down, Green updated true with  is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:67:Move one down and with Green updated true is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:66:Only Scarlett updated on tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:65:Update the cards that the player has - one card is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:64:Update the cards that the player has - no cards is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:63:update one card to state is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:62:no change to marks is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:61:update tracker given multiple cards to update is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:60:update a repeated card on an updated tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:59:update a new card on an updated tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:58:update one card on tracker is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:57:Update the location to another room is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:56:Update the location to one right is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:55:Testing whether the initial state is created successfully is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:54:Raise Malformed error for quit is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:53:Raise Malformed error for help is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:52:Raise Malformed error for answer is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:51:Raise Malformed error for history is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:50:Raise Malformed error for hand is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:49:Raise Malformed error for go - non-option is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:48:Raise Malformed error for go is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:47:Raise Malformed error for roll is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:46:Raise Empty error for empty string is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:45:Quit game is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:44:Help needed is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:43:Answer Lead Pipe is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:42:Guess - ask other player to show these cards is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:41:History - check the player's trackers is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:40:Hand - check the player's hands is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:39:Go to one of the available options is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:38:Roll dice is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:37:next to start tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:36:corner tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:35:normal floor tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:34:exit tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:33:room next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:32:floor next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:31:start tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:30:last element of row is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:29:bottom row is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:28:last tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:27:first tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:26:empty map is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:25:start tile is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:24:end of map is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:23:tile next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:22:tile next to exit is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:21:room next to wall is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:20:in room check for exit is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:19:only tiles is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:18:Distribute cards evenly among 5 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:17:Distribute cards evenly among 4 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:16:Distribute cards evenly among 3 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:15:Distribute cards evenly among 2 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:14:Cards that are going to be left over and be shown to 5 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:13:Cards that are going to be left over and be shown to 4 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:12:Cards that are going to be left over and be shown to 3 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:11:Cards that are going to be left over and be shown to 2 players is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:10:Make a list of distributable cards for 5 player game is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:9:Make a list of distributable cards for 4 player game is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:8:Make a list of distributable cards for 3 player game is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:7:Make a list of distributable cards for 2 player game is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:6:Randomly shuffle integer list is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:5:find sum of two 12-sided dice is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:4:find sum of two 6-sided dice is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:3:find sum of two 4-sided dice is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:2:roll two dice with 12 sides is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:1:roll two dice with 6 sides is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Test test suite:0:roll two dice with 4 sides is successful.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Ran: 78 tests in: 0.32 seconds.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Cases: 78.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Tried: 78.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Errors: 0.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Failures: 0.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Skip: 0.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Todo: 0.
+2021-11-30T03:16:04+00:00 dhcp-vl2041-930.eduroam.cornell.edu#00 I: Timeout: 0.
